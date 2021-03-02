@@ -45,7 +45,7 @@ Download the Google Sheet file as a `.tsv` file.
 Now you can run the run the script to create the combined PDF:
 
 ```bash
-deno run --unstable --allow-read --allow-write mod.ts --performer performer1 --tsv path_to_tsv.tsv --folder path_to_songs
+deno run --unstable --allow-read --allow-write https://raw.githubusercontent.com/greenbech/pdf-show-combiner/main/mod.ts --performer performer1 --tsv path_to_tsv.tsv --folder path_to_songs
 ```
 
 The combined file will be called `<performer>.pdf`.
