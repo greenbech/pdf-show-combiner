@@ -1,6 +1,6 @@
 # PDF Show Combiner
 
-As a musician in a show (such as musical or revy) you want to have your sheet music and cues as easily accessible as possible. This repo enables you to combine several PDFs into one big PDF with additional annotations such as cues, tempo and patch information.
+As a musician in a show (such as musical or [revue](https://en.wikipedia.org/wiki/Revue)) you want to have your sheet music and cues as easily accessible as possible. This repo enables you to combine several PDFs into one big PDF with additional annotations such as cues, tempo and patch information.
 
 ## Installation
 
@@ -20,7 +20,7 @@ Look at the [official installation instructions on deno.land.](https://deno.land
 
 ## Usage
 
-You need to organize the organize the musical pieces in this folder structure:
+You need to organize the musical pieces in this folder structure:
 
 ```
 path_to_songs
