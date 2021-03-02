@@ -1,12 +1,18 @@
 # PDF Show Combiner
 
-As a musician in a show (such as musical or [revue](https://en.wikipedia.org/wiki/Revue)) you want to have your sheet music and cues as easily accessible as possible. This repo enables you to combine several PDFs into one big PDF with additional annotations such as cues, tempo and patch information.
+As a musician in a show (such as musical or
+[revue](https://en.wikipedia.org/wiki/Revue)) you want to have your sheet music
+and cues as easily accessible as possible. This repo enables you to combine
+several PDFs into one big PDF with additional annotations such as cues, tempo
+and patch information.
 
 ## Installation
 
-You need to install the Javascript and Typescript runtime [Deno](https://deno.land/). 
+You need to install the Javascript and Typescript runtime
+[Deno](https://deno.land/).
 
 ### macOS
+
 On macOS I recommend you to download this tool with Homebrew:
 
 ```bash
@@ -15,8 +21,9 @@ brew install deno
 
 ### Other OSes
 
-Look at the [official installation instructions on deno.land.](https://deno.land/#installation)
-
+Look at the
+[official installation instructions on
+deno.land.](https://deno.land/#installation)
 
 ## Usage
 
@@ -38,7 +45,8 @@ path_to_songs
         └── ...
 ```
 
-And create the cues and order of the songs with the same structure as [this template.](https://docs.google.com/spreadsheets/d/1i5ysWpd105U83bJNGoY42axgft93-xKsOUY6JhcZg10/edit?usp=sharing)
+And create the cues and order of the songs with the same structure as
+[this template.](https://docs.google.com/spreadsheets/d/1i5ysWpd105U83bJNGoY42axgft93-xKsOUY6JhcZg10/edit?usp=sharing)
 
 Download the Google Sheet file as a `.tsv` file.
 
